@@ -1,45 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>semaine22</title>
+    <title>Massively</title>
     <meta charset="utf-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" /> <!--s'adapte aux différents écrans-->
 <!--CSS-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"><!-- lien vers le fichier bootstrap -->
+    <link rel="stylesheet" href="css/style.css"><!-- lien vers le fichier css -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> <!--liens pour les icones sociales-->
 </head>
-<body>
+<body>    			
 
+<!--PAGE DU DESSOUS-->
 
-<!--haut de page-->
-<div class="container">
-<div class="jumbotron">
-  <!--<nav class="menu">
-    <ul>
-      <li class="bouton">This is massively</li>
-      <li class="bouton">Generic Page</li>
-      <li class="bouton">Elements reference</li>
-    </ul>
-  </nav>-->
-  <HR>
-  <p class="date-haut">April 25, 2017</p>
-  <h1>And this is a<br>massive headline</h1>
-  <p class="intro">Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br>facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br>amet nullam sed etiam veroeros.</p>
-  <button class="btn-lg btn-default center-block">Full story</button>
-</div> <!--fin de jumbotron-->
+    <header id="header">
+      <a href="index.html" class="logo">Massively</a>
+    </header>
+			
+<!--PAGE DU DESSOUS-->
+
+     <div class="sous-titres">
+       <h1>This is <br />Massively</h1>
+     <p>Notre premier site template en responsive HTML5 + CSS3 crée par Alice et Jessica.</p>
+     </div>
+	
+<!--HAUT DE PAGE-->
+
+   <div class="container">
+       <div class="jumbotron">
+		
+<!-- BARRE DE NAVIGATION -->
+
+   <div class="navbar navbar-default">
+         <ul class="nav navbar-nav">
+           <li class="active"><a href="#">This is Massively</a> </li>
+             <li><a href="#">Général</a> </li>
+             <li><a href="#">Eléments de référence</a> </li>
+  
+	    <a href="#" class="icon fa-twitter"><span class="iconesociales">Twitter</span></a>
+	    <a href="#" class="icon fa-facebook"><span class="iconesociales">Facebook</span></a>
+	    <a href="#" class="icon fa-instagram"><span class="iconesociales">Instagram</span></a>
+	    <a href="#" class="icon fa-github"><span class="iconesociales">GitHub</span></a>
+	</ul>
+   </div>
+
+<HR></HR>
+         <p class="date-haut">April 25, 2017</p>
+         	<h2>And this is a<br>massive headline</h2>
+         <p class="intro">Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br>facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br>amet nullam sed etiam veroeros.</p>
+         	<button class="btn-lg btn-default center-block">Full story</button>
+
+ </div> <!--fin de jumbotron-->
+ 
+ <!--CORPS IMAGES-->
+
+      <div class="row">
+        <div class="col-md-12"></div>
+      </div>
 
 <!--CORPS IMAGES-->
 
       <div class="row">
         <div class="col-md-12"></div>
       </div>
-
+      
 <!--ROW 1-->
 
       <div class="row">
         <div class="col-md-6">
           <p class="date">April 24,2017</p>
-          <h2>sed magna<br>ipsum faucibus</h2>
+          <h3>sed magna<br>ipsum faucibus</h3>
           <img class="img-responsive" src="images\pic02.jpg" alt="jolie 2cv jaune"/>
           <p class="texte-photo">Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
           <button class="btn-lg btn-default center-block">Full story</button>
@@ -47,7 +77,7 @@
 
         <div class="col-md-6">
             <p class="date">April 22, 2017</p>
-            <h2>primis eget<br>imperdiet lorem</h2>
+            <h3>primis eget<br>imperdiet lorem</h3>
             <img class="img-responsive" src="images\pic03.jpg" alt="un homme en costume gris de dos"/>
             <p class="texte-photo">Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
             <button class="btn-lg btn-default center-block">Full story</button>
@@ -60,7 +90,7 @@
       <div class="row">
         <div class="col-md-6">
           <p class="date">April 18,2017</p>
-          <h2>Ante mattis<br>interdum dolor</h2>
+          <h3>Ante mattis<br>interdum dolor</h3>
           <img class="img-responsive" src="images\pic04.jpg" alt="vieil appareil photo"/>
           <p class="texte-photo">Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
           <button class="btn-lg btn-default center-block">Full story</button>
@@ -69,7 +99,7 @@
 
         <div class="col-md-6">
             <p class="date">April 14, 2017</p>
-            <h2>Tempus sed<br>nulla imperdiet</h2>
+            <h3>Tempus sed<br>nulla imperdiet</h3>
             <img class="img-responsive" src="images\pic05.jpg" alt="sommet d'une petite montagne légèrement eneigée éclairée par le soleil du matin"/>
             <p class="texte-photo">Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
             <button class="btn-lg btn-default center-block">Full story</button>
@@ -98,12 +128,84 @@
         
       </div> <!--fin de row 3-->
 
+<!-- NUMEROTATION DE PAGES-->
+
+  <div class="pagination">  <!--<a href="#" class="page">numerospages</a>-->
+    <ul class="pagination">
+        <a href="#" class="page active">1</a>
+        <a href="#" class="page">2</a>
+        <a href="#" class="page">3</a>
+    <span class="extra">&hellip;</span>
+        <a href="#" class="page"></a>
+        <a href="#" class="page">8</a>
+        <a href="#" class="page">9</a>
+        <a href="#" class="page">10</a>
+        <a href="#" class="next">Next</a>
+     </ul>
+  </div>
+
+<!--FORMULAIRE-->
+
+      <section class="formulaire">
+      <form method="post" action="#">
+        <div class="field">
+        <label for="name">Nom</label>
+        <input type="text" name="name" id="name" />
+      </div>
+
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" />
+      </div>
+
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="3"></textarea>
+      </div>
+
+      <ul class="actions">
+        <li><input type="submit" value="Envoyer un Message" /></li>
+      </ul>
+        </form>
+    </section>
+      
+    <section class="contacts alt">
+      <h3>Adresse</h3>
+      <p>Rue d'Aiguillon<br /> 35000 RENNES </p>
+    </section>              
+
+    <section>
+      <h3>Phone</h3>
+      <p><a href="#">000 000 000</a></p>
+    </section>
+            
+    <section>
+      <h3>Email</h3>
+      <p><a href="#">info@CodeAcademie.tld</a></p>
+    </section>  
 
 
+<!--BARRE DE LIENS SOCIAUX-->
 
+    <section>
+      <h3>Réseaux sociaux</h3>
+      <ul class="icons alt">
+        <li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+      <li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+      <li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+      <li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+        </ul>
+    </section>
+    
   </div> <!--fin de container-->
 
+<!-- COPYRIGHT -->
 
-
-</body>
+      <footer>
+    <div id="copyright">
+    <ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP (source)</a></li></ul>
+    </div>
+      </footer>
+  </body>
 </html>
+
